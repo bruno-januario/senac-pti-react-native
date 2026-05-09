@@ -61,7 +61,7 @@ Antes de executar o projeto, é necessário ter instalado em sua máquina:
 Abra o terminal e execute:
 
 ```bash
-git clone https://github.com/seu-usuario/senac-pti-react-native.git
+git clone https://github.com/bruno-januario/senac-pti-react-native.git
 ```
 
 ### 3. Acessar a Pasta do Projeto
