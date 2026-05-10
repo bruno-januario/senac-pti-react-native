@@ -18,6 +18,62 @@ const products = [
     price: 15,
     image: require('./assets/img/pancake.png'),
   },
+  {
+    id: 3,
+    name: "Fries",
+    calories: 40,
+    price: 7,
+    image: require('./assets/img/fries.png'),
+  },
+  {
+    id: 4,
+    name: "Hot Dog",
+    calories: 55,
+    price: 10,
+    image: require('./assets/img/hotdog.png'),
+  },
+  {
+    id: 5,
+    name: "Donut",
+    calories: 45,
+    price: 8,
+    image: require('./assets/img/donut.png'),
+  },
+  {
+    id: 6,
+    name: "Ice Cream",
+    calories: 50,
+    price: 9,
+    image: require('./assets/img/icecream.png'),
+  },
+  {
+    id: 7,
+    name: "Pizza Slice",
+    calories: 65,
+    price: 11,
+    image: require('./assets/img/pizza.png'),
+  },
+  {
+    id: 8,
+    name: "Milkshake",
+    calories: 80,
+    price: 14,
+    image: require('./assets/img/milkshake.png'),
+  },
+  {
+    id: 9,
+    name: "Chicken Nuggets",
+    calories: 58,
+    price: 13,
+    image: require('./assets/img/nuggets.png'),
+  },
+  {
+    id: 10,
+    name: "Soda",
+    calories: 30,
+    price: 6,
+    image: require('./assets/img/soda.png'),
+  },
 ];
 
 // Esse é o componente que implementa cada card de produto
@@ -47,7 +103,7 @@ export default function App() {
           return item.id.toString();
         }}
         renderItem={function({ item }) {
-          return <ProductCard product={item} />; // Aqui é chamado o componente ProductCard que foi criado acima
+          return <ProductCard product={item} />; {/* Usando o componente criado! */}
         }}
         contentContainerStyle={styles.list}
       />
@@ -65,6 +121,7 @@ const styles = StyleSheet.create({
 
   list: {
     paddingTop: 10,
+    paddingBottom: 45,
   },
 
   card: {
@@ -100,6 +157,6 @@ const styles = StyleSheet.create({
 
   price: {
     fontWeight: 'bold',
-    color: '#c0b235',
+    color: '#c4b423',
   }
 });
