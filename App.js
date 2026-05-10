@@ -6,7 +6,7 @@ import { StyleSheet, Text, View, FlatList, Image, SafeAreaView, StatusBar as RNS
 const products = [
   {
     id: 1,
-    name: "Beef Burguer",
+    name: "Beef Burger",
     calories: 70,
     price: 12,
     image: require('./assets/img/burguer.png'),
@@ -76,7 +76,7 @@ const products = [
   },
 ];
 
-// Esse é o componente que implementa cada card de produto
+// Esse é o componente que implementa cada card de produto (PARTE PRINCIPAL DO TRABALHO)
 function ProductCard({ product }) {
   const { name, calories, price, image } = product;
 
@@ -96,7 +96,7 @@ function ProductCard({ product }) {
 // Aqui fica o componente principal no qual o app roda, e dentro dele temos um componente 'FlatList' para criar uma lista dinâmica com rolagem, conforme visto na web 02
 export default function App() {
   return (
-    <SafeAreaView style={styles.container}> {/* Renderiza conteúdo apenas nas áreas livres e seguras */}
+    <SafeAreaView style={styles.container}>
       <FlatList
         data={products}
         keyExtractor={function(item) {
