@@ -103,7 +103,8 @@ export default function App() {
           return item.id.toString();
         }}
         renderItem={function({ item }) {
-          return <ProductCard product={item} />; {/* Usando o componente criado! */}
+          // Usando o componente ProductCard que foi criado...
+          return <ProductCard product={item} />;
         }}
         contentContainerStyle={styles.list}
       />
