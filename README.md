@@ -25,6 +25,37 @@ O aplicativo consiste em um protótipo de interface para uma rede fictícia de *
 - Uso de `SafeAreaView` para respeitar a área segura do dispositivo.
 - Estilização com `StyleSheet`.
 
+> **Observação:** O código enviado no documento de entrega da PTI apresenta apenas dois produtos de exemplo, conforme solicitado no enunciado. Já a versão final disponibilizada neste repositório foi expandida para conter 10 itens, com o objetivo de demonstrar melhor o funcionamento do componente `ProductCard` e da `FlatList`.
+
+---
+
+## 🎯 Objetivo Acadêmico
+Este projeto demonstra a aplicação prática dos seguintes conceitos estudados em aula:
+
+- Componentização
+- Reutilização de código
+- Props
+- Renderização de listas
+- Organização de projeto React Native
+
+---
+
+## 📸 Interface Implementada
+O projeto exibe uma interface com uma lista de produtos contendo:
+
+- Nome do produto
+- Quantidade de calorias
+- Preço
+- Imagem ilustrativa
+
+Cada item é renderizado por meio do componente reutilizável `ProductCard`.
+
+---
+
+## 🎥 Vídeo de Demonstração
+
+Clique para assistir: https://youtube.com/shorts/O0Sx-R7MRRE?feature=share
+
 ---
 
 ## 📁 Estrutura do Projeto
@@ -35,7 +66,7 @@ senac-pti-react-native/
 │   └── img/
 │       ├── burguer.png
 │       └── pancake.png
-├── node_modules/ 
+├── node_modules/
 ├── .gitignore
 ├── App.js
 ├── app.json
@@ -95,29 +126,6 @@ Se você possuir um emulador configurado:
 
 - Pressione `a` no terminal para abrir no Android.
 - Pressione `i` para abrir no iOS (somente em macOS).
-
----
-
-## 📸 Interface do Aplicativo
-O aplicativo exibe uma lista de produtos contendo:
-
-- Nome do produto
-- Quantidade de calorias
-- Preço
-- Imagem ilustrativa
-
-Cada item é renderizado por meio do componente reutilizável `ProductCard`.
-
----
-
-## 🎯 Objetivo Acadêmico
-Este projeto demonstra a aplicação prática dos seguintes conceitos estudados em aula:
-
-- Componentização
-- Reutilização de código
-- Props
-- Renderização de listas
-- Organização de projeto React Native
 
 ---
 
