@@ -50,11 +50,7 @@ O projeto exibe uma interface com uma lista de produtos contendo:
 
 Cada item é renderizado por meio do componente reutilizável `ProductCard`.
 
----
-
-## 🎥 Vídeo de Demonstração
-
-Clique para assistir: https://youtube.com/shorts/O0Sx-R7MRRE?feature=share
+🎥 Vídeo de demonstração da interface: [Clique aqui para acessar!](https://youtube.com/shorts/GSHFbZTtAdo?feature=share)
 
 ---
 
